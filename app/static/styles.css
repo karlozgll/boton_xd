@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button-container {
+    position: relative;
+}
+
+.button-container button {
+    margin: 0 10px;  /* Espacio entre los botones */
+}
+
+/* Estilo para el botón con position: absolute; y cursor: default; */
+.absolute-button {
+    position: absolute;
+    cursor: default;
+}
